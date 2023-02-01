@@ -1,5 +1,5 @@
-import { AiFillEnvironment, AiOutlineMail } from 'react-icons/ai'
-import { HiAcademicCap } from 'react-icons/hi'
+import { AiFillEnvironment } from 'react-icons/ai'
+import { HiAcademicCap, HiTranslate } from 'react-icons/hi'
 import { ImBooks } from 'react-icons/im'
 
 import '../styles/components/informationcontainer.sass'
@@ -21,10 +21,10 @@ const InformationContainer = () => {
       </div>
     </div>
     <div className='info-card'>
-      <AiOutlineMail id='email-icon' />
+      <HiTranslate id='lang-icon' />
       <div>
-        <h3>Email</h3>
-        <p>vittordallacqua@hotmail.com</p>
+        <h3>Línguas</h3>
+        <p>Português / Inglês</p>
       </div>
     </div>
     <div className='info-card'>
