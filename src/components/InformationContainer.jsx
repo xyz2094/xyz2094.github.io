@@ -23,7 +23,7 @@ const InformationContainer = () => {
     <div className='info-card'>
       <HiTranslate id='lang-icon' />
       <div>
-        <h3>Línguas</h3>
+        <h3>Idiomas</h3>
         <p>Português / Inglês</p>
       </div>
     </div>
