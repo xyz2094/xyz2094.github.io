@@ -13,14 +13,13 @@
       color: white
 
     .technology-card
-      @include mixins.card
+      @include mixins.center
       gap: 1rem
       padding: 1rem
       border: 1px solid #333
-      width: 45%
       border-radius: variables.$card-border-radius
-      max-width: 600px
-        float: none
+      width: 45%
+      @media screen and (max-width: 600px)
         width: 100%
 
       h3
