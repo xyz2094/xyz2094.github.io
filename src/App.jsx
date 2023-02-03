@@ -1,7 +1,8 @@
-import MainContent from './components/MainContent'
-import Sidebar from './components/Sidebar'
+import Footer from "./components/Footer";
+import MainContent from './components/MainContent';
+import Sidebar from './components/Sidebar';
 
-import "./styles/components/app.sass"
+import "./styles/components/app.sass";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>Vittor Dallacqua</h1>
       <Sidebar />
       <MainContent />
+      <Footer />
     </div>
   )
 }
