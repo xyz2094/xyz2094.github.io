@@ -1,7 +1,9 @@
 import {
-  DiGitBranch, DiJavascript1, DiMongodb, DiMysql,
+  DiGitBranch, DiJavascript1, DiMysql,
   DiNodejsSmall, DiReact
 } from 'react-icons/di'
+
+import { SiMongodb } from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
@@ -11,8 +13,9 @@ const technologies = [
   { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
   { id: "git", name: 'Git', icon: <DiGitBranch /> },
   { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
-  { id: "mongodb", name: 'MongoDB', icon: <DiMongodb /> },
+  { id: "mongodb", name: 'MongoDB', icon: <SiMongodb /> },
 ]
+
 
 const TechnologiesContainer = () => {
   return (
