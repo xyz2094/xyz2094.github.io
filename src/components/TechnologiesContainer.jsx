@@ -1,8 +1,6 @@
 import {
-  DiJavascript1, DiMongodb, DiMysql,
-  DiNodejsSmall,
-  DiPython,
-  DiReact
+  DiGitBranch, DiJavascript1, DiMongodb, DiMysql,
+  DiNodejsSmall, DiReact
 } from 'react-icons/di'
 
 import '../styles/components/technologiescontainer.sass'
@@ -11,7 +9,7 @@ const technologies = [
   { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
   { id: "react", name: 'React.js', icon: <DiReact /> },
   { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
-  { id: "python", name: 'Python', icon: <DiPython /> },
+  { id: "git", name: 'Git', icon: <DiGitBranch /> },
   { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
   { id: "mongodb", name: 'MongoDB', icon: <DiMongodb /> },
 ]
