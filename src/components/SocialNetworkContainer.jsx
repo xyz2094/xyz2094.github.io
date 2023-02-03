@@ -12,7 +12,7 @@ const SocialNetworkContainer = () => {
   return (
     <section id="social-networks">
       {socialNetworks.map((network) => (
-        <a target="__blank" href={network.link} className='social-btn' id={network.name} key={network.name}>
+        <a target="_blank" href={network.link} className='social-btn' id={network.name} key={network.name}>
           {network.icon}
         </a>
       ))
