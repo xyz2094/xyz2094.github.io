@@ -20,8 +20,8 @@ const technologies = [
 const TechnologiesContainer = () => {
   return (
     <section className='technologies-container'>
-      <h2>Tecnologias</h2>
-      <p>Principais tecnologias que eu utilizo:</p>
+      <h2>Technologies</h2>
+      <p>Main technologies I use:</p>
       <div className="technologies-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>

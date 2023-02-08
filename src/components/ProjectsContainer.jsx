@@ -1,9 +1,9 @@
 const ProjectsContainer = () => {
   return <section className="about-container">
-    <h2>Projetos</h2>
-    <p>Aqui se encontram os meus projetos majoritariamente
-      desenvolvidos em JavaScript, HTML e CSS, incluindo o repositório desse site!</p>
-    <a target="_blank" href="https://github.com/vittordallacqua" className="btn">Ver Projetos</a> <br></br>
+    <h2>Projects</h2>
+    <p>Here you can find my projects mostly
+      developed in JavaScript, HTML and CSS, including the repository of this site!</p>
+    <a target="_blank" href="https://github.com/vittordallacqua" className="btn">See projects</a> <br></br>
   </section>
 }
 
