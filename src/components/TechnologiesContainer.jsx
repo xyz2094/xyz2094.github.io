@@ -1,6 +1,6 @@
 import {
-  DiGitBranch, DiJavascript1, DiMysql,
-  DiNodejsSmall, DiPython, DiReact
+  DiGitBranch, DiJavascript1, DiLinux, DiMysql,
+  DiNodejsSmall, DiReact
 } from 'react-icons/di'
 
 
@@ -10,7 +10,7 @@ const technologies = [
   { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
   { id: "react", name: 'React.js', icon: <DiReact /> },
   { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
-  { id: "python", name: 'Python', icon: <DiPython /> },
+  { id: "linux", name: 'Linux', icon: <DiLinux /> },
   { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
   { id: "git", name: 'Git', icon: <DiGitBranch /> },
 ]
