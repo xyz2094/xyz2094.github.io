@@ -5,7 +5,7 @@ import '../styles/components/socialnetworkcontainer.sass'
 const socialNetworks = [
   { name: 'linkedin', icon: <FaLinkedinIn />, link: 'https://www.linkedin.com/in/vittordallacqua/' },
   { name: 'github', icon: <FaGithub />, link: 'https://github.com/vittordallacqua' },
-  { name: 'instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/dallacqua.ig' },
+  { name: 'instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/hellswr4th' },
 ]
 
 const SocialNetworkContainer = () => {
