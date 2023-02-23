@@ -9,15 +9,14 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Vittor Dallacqua" />
-      <p className="title">Web Developer</p>
+      <p className="title">Software Developer</p>
       <SocialNetworkContainer />
       <InformationContainer />
       <a target="_blank" href="resume.pdf" className="btn">
-        My resume
+        Open my CV
       </a>
     </aside>
   )
 }
-
 
 export default Sidebar

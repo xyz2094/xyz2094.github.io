@@ -1,5 +1,5 @@
 import { AiFillEnvironment } from 'react-icons/ai'
-import { HiAcademicCap, HiTranslate } from 'react-icons/hi'
+import { HiAcademicCap, HiBriefcase, HiTranslate } from 'react-icons/hi'
 import { ImBooks } from 'react-icons/im'
 
 import '../styles/components/informationcontainer.sass'
@@ -20,6 +20,13 @@ const InformationContainer = () => {
         <p>Analysis and Systems Development</p>
       </div>
     </div>
+    <div className='info-card'>
+      <HiBriefcase id='case-icon' />
+      <div>
+        <h3>Availability</h3>
+        <p>Open to work</p>
+      </div>
+    </div>  
     <div className='info-card'>
       <HiTranslate id='lang-icon' />
       <div>
