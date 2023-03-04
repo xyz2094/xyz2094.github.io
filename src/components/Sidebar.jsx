@@ -13,7 +13,7 @@ const Sidebar = () => {
       <SocialNetworkContainer />
       <InformationContainer />
       <a target="_blank" href="resume.pdf" className="btn">
-        Open my CV
+        My resume
       </a>
     </aside>
   )
