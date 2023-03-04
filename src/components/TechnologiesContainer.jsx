@@ -1,23 +1,21 @@
-import {
-  DiGitBranch, DiJavascript1, DiMysql,
-  DiNodejsSmall, DiReact
-} from 'react-icons/di'
+import { DiMysql, DiPython, DiReact } from 'react-icons/di'
 
-import { SiSass } from 'react-icons/si'
+import { SiRubyonrails, SiSass, SiTypescript } from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-  { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
+  // { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
   { id: "react", name: 'React.js', icon: <DiReact /> },
-  //  id: "ts", name: 'TypeScript', icon: <SiTypescript /> },
+  { id: "ruby", name: 'Ruby On Rails', icon: <SiRubyonrails /> },
+  { id: "ts", name: 'TypeScript', icon: <SiTypescript /> },
   { id: "sass", name: 'Sass', icon: <SiSass /> },
-  // { id: "python", name: 'Python', icon: <DiPython /> },
-  { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
+  { id: "python", name: 'Python', icon: <DiPython /> },
+  // { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
   // { id: "linux", name: 'Linux', icon: <DiLinux /> },
   { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
   // { id: "mongodb", name: 'MongoDB', icon: <SiMongodb /> },
-  { id: "git", name: 'Git', icon: <DiGitBranch /> },
+  // { id: "git", name: 'Git', icon: <DiGitBranch /> },
 ]
 
 
