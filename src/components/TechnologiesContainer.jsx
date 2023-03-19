@@ -1,17 +1,16 @@
-import { DiMysql, DiPython, DiReact } from 'react-icons/di'
-
-import { SiRubyonrails, SiSass, SiTypescript } from 'react-icons/si'
+import { DiMysql, DiNodejsSmall, DiPython, DiReact } from 'react-icons/di'
+import { SiSass, SiTypescript } from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
   // { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
   { id: "react", name: 'React.js', icon: <DiReact /> },
-  { id: "ruby", name: 'Ruby On Rails', icon: <SiRubyonrails /> },
+  // { id: "ruby", name: 'Ruby On Rails', icon: <SiRubyonrails /> },
   { id: "ts", name: 'TypeScript', icon: <SiTypescript /> },
   { id: "sass", name: 'Sass', icon: <SiSass /> },
   { id: "python", name: 'Python', icon: <DiPython /> },
-  // { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
+  { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
   // { id: "linux", name: 'Linux', icon: <DiLinux /> },
   { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
   // { id: "mongodb", name: 'MongoDB', icon: <SiMongodb /> },
