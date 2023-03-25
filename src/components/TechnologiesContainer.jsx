@@ -17,7 +17,6 @@ const technologies = [
   // { id: "git", name: 'Git', icon: <DiGitBranch /> },
 ]
 
-
 const TechnologiesContainer = () => {
   return (
     <section className='technologies-container'>

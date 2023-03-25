@@ -10,21 +10,21 @@ const InformationContainer = () => {
       <HiAcademicCap id='cap-icon' />
       <div>
         <h3>Education</h3>
-        <p>Computer Technician</p>
+        <p>Technical High School <br></br> Informatics</p>
       </div>
     </div>
     <div className='info-card'>
       <ImBooks id='book-icon' />
       <div>
-        <h3>Higher Education (In progress)</h3>
-        <p>Systems Analysis and Development</p>
+        <h3>In College</h3>
+        <p>Bachelor of Technology <br></br> Systems Analysis and Development</p>
       </div>
     </div>
     <div className='info-card'>
       <HiTranslate id='lang-icon' />
       <div>
         <h3>Languages</h3>
-        <p>Portuguese / English</p>
+        <p>Português / English</p>
       </div>
     </div>
     <div className='info-card'>
