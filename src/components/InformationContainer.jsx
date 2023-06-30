@@ -9,15 +9,15 @@ const InformationContainer = () => {
     <div className='info-card'>
       <HiAcademicCap id='cap-icon' />
       <div>
-        <h3>Education</h3>
-        <p>Technical High School <br></br> Informatics</p>
+        <h3>Formation</h3>
+        <p>High School, Informatics</p>
       </div>
     </div>
     <div className='info-card'>
       <ImBooks id='book-icon' />
       <div>
         <h3>In College</h3>
-        <p>Bachelor of Technology <br></br> Systems Analysis and Development</p>
+        <p>Bachelor, Computer Science</p>
       </div>
     </div>
     <div className='info-card'>
