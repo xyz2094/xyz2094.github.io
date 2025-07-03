@@ -1,5 +1,3 @@
-## My Portfolio
+### My portfolio
 
-
-[![My Skills](https://skillicons.dev/icons?i=js,react,html,sass)](https://skillicons.dev)
-
+SEVERELY OUTDATED!!!!
