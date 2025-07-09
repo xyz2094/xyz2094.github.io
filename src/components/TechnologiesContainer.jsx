@@ -1,13 +1,12 @@
 import { DiGit, DiJava, DiJavascript1, DiLinux, DiMysql, DiNodejsSmall, DiPython, DiReact, DiWindows } from 'react-icons/di'
 import { SiSass, SiShell, SiTypescript } from 'react-icons/si'
-import { TbBrandCpp } from 'react-icons/tb'
 
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-  { id: "cpp", name: 'cpp', icon: <TbBrandCpp /> },
   { id: "java", name: 'java', icon: <DiJava /> },
   { id: "python", name: 'python', icon: <DiPython /> },
+  { id: "nodejs", name: 'nodejs', icon: <DiNodejsSmall /> },
   { id: "react", name: 'react.js', icon: <DiReact /> },
   { id: "mysql", name: 'mysql', icon: <DiMysql /> },
   { id: "git", name: 'git', icon: <DiGit /> },
