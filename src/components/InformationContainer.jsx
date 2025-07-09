@@ -17,7 +17,7 @@ const InformationContainer = () => {
     <div className='info-card'>
       <ImBooks id='book-icon' />
       <div>
-        <h3>studying</h3>
+        <h3>current</h3>
         <p>computer science @ up</p>
       </div>
     </div>
