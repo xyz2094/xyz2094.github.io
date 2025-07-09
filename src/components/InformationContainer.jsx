@@ -9,29 +9,30 @@ const InformationContainer = () => {
     <div className='info-card'>
       <HiAcademicCap id='cap-icon' />
       <div>
-        <h3>Formation</h3>
-        <p>High School, Informatics</p>
+        <br></br>
+        <h3>formation</h3>
+        <p>informatics technician @ pucpr</p>
       </div>
     </div>
     <div className='info-card'>
       <ImBooks id='book-icon' />
       <div>
-        <h3>In College</h3>
-        <p>Bachelor, Computer Science</p>
+        <h3>studying</h3>
+        <p>computer science @ up</p>
       </div>
     </div>
     <div className='info-card'>
       <HiTranslate id='lang-icon' />
       <div>
-        <h3>Languages</h3>
-        <p>Português / English</p>
+        <h3>languages</h3>
+        <p>pt ~ en</p>
       </div>
     </div>
     <div className='info-card'>
       <AiFillEnvironment id='pin-icon' />
       <div>
-        <h3>Location</h3>
-        <p>Curitiba, Paraná, Brazil</p>
+        <h3>location</h3>
+        <p>curitiba, brazil</p>
       </div>
     </div>
   </section>

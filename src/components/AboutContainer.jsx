@@ -1,7 +1,9 @@
 const AboutContainer = () => {
   return <section className="about-container">
-    <h2>About</h2>
-    <p>Welcome! <br></br><br></br> My name is Vittor, i'm a brazilian junior software developer. This is my portfolio and i hope you like it! </p>
+    <h2>about</h2>
+    <p> interested in data analysis
+      and full-stack development ~ i like metal music and
+      go out with my friends ~ i love my wife S2 </p>
   </section>
 }
 

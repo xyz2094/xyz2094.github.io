@@ -1,8 +1,9 @@
 const ProjectsContainer = () => {
   return <section className="about-container">
-    <h2>Projects</h2>
-    <p>Here you can find my projects, including the repo of this site!</p>
-    <a target="_blank" href="https://github.com/vittordallacqua" className="btn">See projects</a> <br></br>
+    <h2>projects</h2>
+    <p>you can see my projects by clicking the button aside &nbsp;
+      <a target="_blank" href="https://github.com/vittordallacqua" className="btn">> see projects!!!</a>
+    </p>
   </section>
 }
 

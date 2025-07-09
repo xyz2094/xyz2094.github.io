@@ -1,4 +1,4 @@
-import Avatar from '../img/vittor.png'
+import Avatar from '../img/pfp.jpg'
 
 import SocialNetworkContainer from './SocialNetworkContainer'
 
@@ -9,11 +9,11 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Vittor Dallacqua" />
-      <p className="title">Computer Science Student</p>
+      <p className="title">compsci ug @ up</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a target="_blank" href="resume.pdf" className="btn">
-        My Resume (PDF)
+      <a target="_blank" href="cv.pdf" className="btn">
+        > my cv
       </a>
     </aside>
   )

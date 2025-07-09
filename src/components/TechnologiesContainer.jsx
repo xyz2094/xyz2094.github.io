@@ -1,26 +1,23 @@
-import { DiMysql, DiNodejsSmall, DiPython, DiReact } from 'react-icons/di'
-import { SiSass, SiTypescript } from 'react-icons/si'
+import { DiGit, DiJava, DiJavascript1, DiLinux, DiMysql, DiNodejsSmall, DiPython, DiReact, DiWindows } from 'react-icons/di'
+import { SiSass, SiShell, SiTypescript } from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-  // { id: "js", name: 'JavaScript', icon: <DiJavascript1 /> },
-  { id: "react", name: 'React.js', icon: <DiReact /> },
-  // { id: "ruby", name: 'Ruby On Rails', icon: <SiRubyonrails /> },
-  { id: "ts", name: 'TypeScript', icon: <SiTypescript /> },
-  { id: "sass", name: 'Sass', icon: <SiSass /> },
-  { id: "python", name: 'Python', icon: <DiPython /> },
-  { id: "node", name: 'Node.js', icon: <DiNodejsSmall /> },
-  // { id: "linux", name: 'Linux', icon: <DiLinux /> },
-  { id: "mysql", name: 'MySQL', icon: <DiMysql /> },
-  // { id: "mongodb", name: 'MongoDB', icon: <SiMongodb /> },
-  // { id: "git", name: 'Git', icon: <DiGitBranch /> },
+  { id: "js", name: 'javascript', icon: <DiJavascript1 /> },
+  { id: "react", name: 'react.js', icon: <DiReact /> },
+  { id: "java", name: 'java', icon: <DiJava /> },
+  { id: "python", name: 'python', icon: <DiPython /> },
+  { id: "mysql", name: 'mysql', icon: <DiMysql /> },
+  { id: "git", name: 'git', icon: <DiGit /> },
+  { id: "linux", name: 'linux', icon: <DiLinux /> },
+  { id: "windows", name: 'windows', icon: <DiWindows /> },
 ]
 
 const TechnologiesContainer = () => {
   return (
     <section className='technologies-container'>
-      <h2>Technologies</h2>
+      <h2>tech stack</h2>
       <div className="technologies-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>
