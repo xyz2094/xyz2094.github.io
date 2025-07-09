@@ -4,7 +4,7 @@ import { SiSass, SiShell, SiTypescript } from 'react-icons/si'
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-  { id: "js", name: 'javascript', icon: <DiJavascript1 /> },
+  { id: "node", name: 'nodejs', icon: <SiNodedotjs /> },
   { id: "react", name: 'react.js', icon: <DiReact /> },
   { id: "java", name: 'java', icon: <DiJava /> },
   { id: "python", name: 'python', icon: <DiPython /> },
