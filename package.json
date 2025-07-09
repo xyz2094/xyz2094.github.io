@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://xyz2094.github.io/me/",
+  "homepage": "https://xyz2094.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
