@@ -17,7 +17,7 @@ const technologies = [
 const TechnologiesContainer = () => {
   return (
     <section className='technologies-container'>
-      <h2>tech stack</h2>
+      <h2> > tech stack</h2>
       <div className="technologies-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>
