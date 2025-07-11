@@ -4,14 +4,14 @@ import { SiSass, SiShell, SiTypescript } from 'react-icons/si'
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-  { id: "js", name: 'javascript', icon: <DiJavascript1 /> },
-  { id: "react", name: 'react.js', icon: <DiReact /> },
   { id: "java", name: 'java', icon: <DiJava /> },
   { id: "python", name: 'python', icon: <DiPython /> },
+  { id: "nodejs", name: 'nodejs', icon: <DiNodejsSmall /> },
+  { id: "react", name: 'react.js', icon: <DiReact /> },
   { id: "mysql", name: 'mysql', icon: <DiMysql /> },
   { id: "git", name: 'git', icon: <DiGit /> },
-  { id: "linux", name: 'linux', icon: <DiLinux /> },
-  { id: "windows", name: 'windows', icon: <DiWindows /> },
+  // { id: "linux", name: 'linux', icon: <DiLinux /> },
+  // { id: "windows", name: 'windows', icon: <DiWindows /> },
 ]
 
 const TechnologiesContainer = () => {
