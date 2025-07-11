@@ -10,8 +10,8 @@ const technologies = [
   { id: "react", name: 'react.js', icon: <DiReact /> },
   { id: "mysql", name: 'mysql', icon: <DiMysql /> },
   { id: "git", name: 'git', icon: <DiGit /> },
-  // { id: "linux", name: 'linux', icon: <DiLinux /> },
-  // { id: "windows", name: 'windows', icon: <DiWindows /> },
+  { id: "linux", name: 'linux', icon: <DiLinux /> },
+  { id: "windows", name: 'windows', icon: <DiWindows /> },
 ]
 
 const TechnologiesContainer = () => {

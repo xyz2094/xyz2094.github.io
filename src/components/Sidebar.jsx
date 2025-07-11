@@ -9,13 +9,13 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Vittor Dallacqua" />
-      <p className="title">compsci ug @ up</p>
+      <p className="title">full-stack dev</p>
       <SocialNetworkContainer />
       <InformationContainer />
       <a target="_blank" href="cv-web.pdf" className="btn">
         > my cv
       </a>
-    </aside>
+    </aside >
   )
 }
 
