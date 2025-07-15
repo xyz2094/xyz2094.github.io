@@ -11,7 +11,7 @@ const InformationContainer = () => {
       <div>
         <br></br>
         <h3>formation</h3>
-        <p>informatics technician @ pucpr</p>
+        <p>inf. tehcnology @ pucpr</p>
       </div>
     </div>
     <div className='info-card'>
