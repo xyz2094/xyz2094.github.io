@@ -11,10 +11,10 @@ const Sidebar = () => {
       <img src={Avatar} alt="Vittor Dallacqua" />
       <p className="title">full-stack dev</p>
       <SocialNetworkContainer />
-      <InformationContainer />
       <a target="_blank" href="curriculum-07-2025.pdf" className="btn">
         > my cv
       </a>
+      <InformationContainer />
     </aside >
   )
 }
