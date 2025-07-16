@@ -1,6 +1,7 @@
 import { AiFillEnvironment } from 'react-icons/ai'
 import { HiAcademicCap, HiTranslate } from 'react-icons/hi'
 import { ImBooks } from 'react-icons/im'
+import { GiPointySword } from "react-icons/gi";
 
 import '../styles/components/informationcontainer.sass'
 
@@ -26,6 +27,13 @@ const InformationContainer = () => {
       <div>
         <h3>languages</h3>
         <p>pt ~ en</p>
+      </div>
+    </div>
+    <div className='info-card'>
+      <GiPointySword id='sword-icon' />
+      <div>
+        <h3>interests</h3>
+        <p>music, code and social</p>
       </div>
     </div>
     <div className='info-card'>
