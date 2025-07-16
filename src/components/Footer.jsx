@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="main-footer">
       <p> vittor dallacqua &copy; {new Date().getFullYear()} </p>
-      <p className="click-counter">you clicked {count} times xD</p>
+      <p>you clicked {count} times xD</p>
       <button onClick={() => setCount(count + 1)}>easter egg</button>
     </div>
   );
