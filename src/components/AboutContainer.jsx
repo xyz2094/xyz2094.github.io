@@ -2,7 +2,11 @@ const AboutContainer = () => {
   return <section className="about-container">
     <h2> > about</h2>
     <p>
-      using unusual ideas to build great things :) 
+      > 21yo compsci undergraduate based in brazil
+      <br />
+      > interested in full-stack development and open source
+      <br />
+      > i like metal music and play drums :D
     </p>
   </section>
 }
