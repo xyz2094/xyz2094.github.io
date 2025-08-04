@@ -11,7 +11,7 @@ const Sidebar = () => {
       <img src={Avatar} alt="Vittor Dallacqua" />
       <p className="title">full-stack dev</p>
       <SocialNetworkContainer />
-      <a target="_blank" href="curriculum-07-2025.pdf" className="btn">
+      <a target="_blank" href="curriculum-08-2025.pdf" className="btn">
         > my cv
       </a>
       <InformationContainer />
