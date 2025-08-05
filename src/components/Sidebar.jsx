@@ -12,7 +12,7 @@ const Sidebar = () => {
       <p className="title">full-stack dev</p>
       <SocialNetworkContainer />
       <a target="_blank" href="curriculum-08-2025.pdf" className="btn">
-        > my cv
+        > resume
       </a>
       <InformationContainer />
     </aside >
