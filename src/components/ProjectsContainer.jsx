@@ -7,6 +7,7 @@ const ProjectsContainer = () => {
       <a target="_blank" className="btn" href="https://github.com/xyz2094/mips-simulator">@mips-simulator</a>
       <a target="_blank" className="btn" href="https://github.com/xyz2094/c-netgraph">@c-netgraph</a>
       <a target="_blank" className="btn" href="https://github.com/xyz2094/xyz2094.github.io">@portfolio</a>
+      <a target="_blank" className="btn" href="https://github.com/xyz2094/chaosfanatic">@chaosfanatic</a>
     </div>
   </section>
 }
