@@ -7,7 +7,7 @@ const AboutContainer = () => {
       > interested in full-stack development and open source
       <br />    
       > i like metal music and play drums \m/
-      br />
+      <br />
     </p>
   </section>
 }
