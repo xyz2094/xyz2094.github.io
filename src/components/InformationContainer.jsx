@@ -23,17 +23,17 @@ const InformationContainer = () => {
       </div>
     </div>
     <div className='info-card'>
+      <GiPointySword id='sword-icon' />
+      <div>
+        <h3>current</h3>
+        <p>cx intern @ electrolux</p>
+      </div>
+    </div>
+    <div className='info-card'>
       <HiTranslate id='lang-icon' />
       <div>
         <h3>languages</h3>
         <p>pt ~ en</p>
-      </div>
-    </div>
-    <div className='info-card'>
-      <GiPointySword id='sword-icon' />
-      <div>
-        <h3>interests</h3>
-        <p>music, code and social</p>
       </div>
     </div>
     <div className='info-card'>

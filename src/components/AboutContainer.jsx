@@ -5,8 +5,9 @@ const AboutContainer = () => {
       > 21yo compsci undergraduate based in brazil
       <br />
       > interested in full-stack development and open source
+      <br />    
+      > i like metal music and play drums \m/
       <br />
-      > i like metal music and play drums :D
     </p>
   </section>
 }
